@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.container,
+.producteParent,
+.hardwareParent,
+.uberUnsParent,
+.karriereParent {
+  position: relative;
+}
+.container > li {
+  background-color: gray;
+  border: 3px solid lightskyblue;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px 5px lightskyblue, 0 0 25px 5px lightskyblue;
+}
+nav ul > li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1rem;
+  margin: 1rem;
+  width: max-content;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.producte,
+.uberUns,
+.hardware,
+.karriere {
+  background-color: darkcyan;
+  position: absolute;
+  display: none;
+  border: 5px solid darkslategray;
+  border-radius: 7px;
+}
+.hardware,
+.karriere {
+  background-color: darkslategrey;
+}
+.producteParent:hover .producte,
+.uberUnsParent:hover .uberUns,
+.hardwareParent:hover .hardware,
+.karriereParent:hover .karriere {
+  display: block;
+  left: 0;
+  top: 72px;
+  cursor: pointer;
+}
+.hardwareParent:hover .hardware,
+.karriereParent:hover .karriere {
+  top: 0;
+  left: 150px;
+}
