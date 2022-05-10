@@ -52,11 +52,12 @@ nav ul li a {
 .karriereParent:hover .karriere {
   display: block;
   left: 0;
+  width: ;
   top: 72px;
   cursor: pointer;
 }
 .hardwareParent:hover .hardware,
 .karriereParent:hover .karriere {
   top: 0;
-  left: 150px;
+  left: 100%;
 }
