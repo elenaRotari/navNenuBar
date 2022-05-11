@@ -5,6 +5,11 @@
 }
 body {
   background-color: black;
+
+}
+nav{
+  position:fixed;
+  top:0;
 }
 .container,
 .producteParent,
@@ -15,7 +20,7 @@ body {
 }
 .container > li {
   background-color: gray;
-  border: 3px solid lightskyblue;
+  border: 3px solid lightsteelblue
   border-radius: 10px;
   box-shadow: inset 0 0 10px 5px lightskyblue, 0 0 25px 5px lightskyblue;
 }
@@ -24,7 +29,7 @@ nav ul > li {
   display: inline-block;
   padding: 1rem;
   margin: 1rem;
-  width: max-content;
+  /* width: max-content; */
 }
 nav ul li a {
   text-decoration: none;
@@ -52,7 +57,7 @@ nav ul li a {
 .karriereParent:hover .karriere {
   display: block;
   left: 0;
-  width: ;
+
   top: 72px;
   cursor: pointer;
 }
@@ -60,4 +65,15 @@ nav ul li a {
 .karriereParent:hover .karriere {
   top: 0;
   left: 100%;
+}
+
+section{
+  /* top:20px; */
+  /* margin-top:25%; */
+  color: beige;
+  text-align: justify;
+  font-size: larger;
+}
+.test{
+  margin-top: 7%;
 }
