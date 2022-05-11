@@ -5,11 +5,12 @@
 }
 body {
   background-color: black;
-
 }
-nav{
-  position:fixed;
-  top:0;
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: black;
 }
 .container,
 .producteParent,
@@ -20,7 +21,7 @@ nav{
 }
 .container > li {
   background-color: gray;
-  border: 3px solid lightsteelblue
+  border: 3px solid lightsteelblue;
   border-radius: 10px;
   box-shadow: inset 0 0 10px 5px lightskyblue, 0 0 25px 5px lightskyblue;
 }
@@ -67,13 +68,13 @@ nav ul li a {
   left: 100%;
 }
 
-section{
+section {
   /* top:20px; */
   /* margin-top:25%; */
   color: beige;
   text-align: justify;
   font-size: larger;
 }
-.test{
+.test {
   margin-top: 7%;
 }
